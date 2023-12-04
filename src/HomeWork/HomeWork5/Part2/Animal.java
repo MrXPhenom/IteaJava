@@ -8,15 +8,15 @@ public class Animal {
         animal();
     }
 
-    static void animal() {
-        System.out.println("I am animal");
+    void animal() {
+        System.out.println("I am an animal");
     }
 
-    static void eat() {
+    void eat() {
         System.out.println("Animal eats");
     }
 
-    static void drink() {
+    void drink() {
         System.out.println("Animal drinks");
     }
 }
