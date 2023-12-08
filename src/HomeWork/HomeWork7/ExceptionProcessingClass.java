@@ -11,7 +11,7 @@ public class ExceptionProcessingClass {
             int length = array.length;
             double[] resultArray = new double[length];
             for (int i = 0; i < array.length; i++) {
-                resultArray[i] = (double) array[i] / divisor;
+                resultArray[i] = (double) Math.round(((double) array[i] / divisor) * 100) / 100;
             }
             System.out.print("Result of division of array on " + divisor + " is ");
             for (double result : resultArray) {
